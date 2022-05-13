@@ -1,0 +1,47 @@
+#home{
+  background-image: url(travel2.jpg);
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  background-color: aqua;
+  text-align: right;
+}
+h1{
+  text-align: center;
+  margin-bottom: 25%;
+  font-size: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+ a {
+  float: right;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.flexcontainer{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.flexcontainer > div{
+  background-color: #d5e6e3 ;
+  width: 50%;
+  height: 100vh;
+  margin: 10px;
+  text-align: center;
+
+}
+#contact{
+  text-align: center;
+  
+}
